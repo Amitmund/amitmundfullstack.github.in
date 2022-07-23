@@ -1,0 +1,30 @@
+body > header {
+  position: fixed;
+  top: 0;
+}
+
+
+
+.home-page-img .login-signup {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+
+
+}
+
+.home-page-img img{
+  width:100%;
+  position: relative;
+}
+
+.login-signup button {
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.login-signup button:hover {
+  cursor: pointer;
+}
