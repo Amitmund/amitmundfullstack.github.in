@@ -1,40 +1,45 @@
 <html>
 
   <head>
+    <!-- title -->
     <title>Amit Mund</title>
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- including css -->
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/header.css">
+
+
   </head>
 
 
   <body>
 
-    <img id="home-page-img" src="images/shutterstock_348320018.png" alt="home-page-img" >
+    <!-- Image -->
+    <div class="home-page-img">
+      <img  src="images/shutterstock_348320018.png" alt="home-page-img" >
 
-    <h1>Test</h1>
-
-    <button type="button"> Create an account </button>
-
-    <br>
-    <hr>
-
-
-    <form>
-      <div>
-        <input type="text" placeholder="Enter your location" required>
+      <div class="login-signup">
+        <button>login</button>
+        <button>signup</button>
       </div>
 
-
       <div>
-        <label>Choose a location:</label>
-        <select name="location">
-          <option value="Bangloare">Bangalore</option>
-          <option value="Delhi">Delhi</option>
-        </select>
-
+        <input class="input-container" type="text" placeholder="locations" list="locations"/>
+        <datalist id="locations">
+            <option value="bangalore">bangalore</option>
+            <option value="chennai">chennai</option>
+            <option value="mumbai">mumbai</option>
+            <option value="hyderabad">hyderabad</option>
+        </datalist>
       </div>
 
+    </div>
 
-    </form>
+
+
+
 
   </body>
 
